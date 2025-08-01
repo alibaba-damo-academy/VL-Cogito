@@ -13,3 +13,5 @@ Progressive Curriculum Reinforcement Learning (PCuRL):Through a multi-stage, “
 **Outstanding Performance:**
 
 VL-Cogito demonstrates stable, state-of-the-art or superior results on mainstream multimodal reasoning benchmarks, covering mathematics, science, logic, and commonsense understanding!
+
+![The framework of our model.](./vl_cogito.png)
