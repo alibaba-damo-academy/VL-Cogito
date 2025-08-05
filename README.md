@@ -1,3 +1,4 @@
+<h1 align="center">VL-Cogito</h1>
 <p align="center">
 <a href="https://github.com/alibaba-damo-academy/VL-Cogito" target="_blank" rel="noopener">Website</a>
 &nbsp;&nbsp;
@@ -7,8 +8,6 @@
 &nbsp;&nbsp;
 <a href="https://arxiv.org/abs/2507.22607" target="_blank" rel="noopener">Paper</a>
 </p>
-
-# VL-Cogito
 The homepage of our multimodal reasoning model—VL-Cogito! 
 Inspired by the Latin word “Cogito” (“I think”), VL-Cogito is built for complex and diverse multimodal reasoning tasks, with a strong focus on autonomous thinking and adaptability.
 
