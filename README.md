@@ -24,3 +24,13 @@ Progressive Curriculum Reinforcement Learning (PCuRL):Through a multi-stage, “
 VL-Cogito demonstrates stable, state-of-the-art or superior results on mainstream multimodal reasoning benchmarks, covering mathematics, science, logic, and commonsense understanding!
 
 ![The framework of our model.](./vl_cogito.png)
+
+**Training**
+The training scripts can be found in examples folder, which include four scripts: basic grpo for MLLM Reasoning, stage1 for VL-Cogito, stage2 for VL-Cogito, and stage3 for VL-Cogito. The training script is designed for one single node by default, but can be used with multiple GPUs. 
+```
+bash examples/stage1.sh
+```
+After the training, use scripts/model_merger.py to convert the ckpt to hf model.
+```
+python scripts/model_merger.py --local_dir your_ckpt_path --hf_upload_path path_for_hf_model
+```
