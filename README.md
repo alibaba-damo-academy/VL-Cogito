@@ -33,9 +33,9 @@ The code is a fork of the original EasyR1.
 The training scripts can be found in examples folder, which include four scripts: basic grpo for MLLM Reasoning, stage1 for VL-Cogito, stage2 for VL-Cogito, and stage3 for VL-Cogito. The training script is designed for one single node by default, but can be used with multiple GPUs. Some necessary file pathes and environment variables need to be added in the the script before the training.
 
 Explaination of some important hyperparameters:
-+ worker.reward.compute_score: The reward used in the training. Options: r1v(basic grpo), r1v+cir(grpo + online difficulty weighting), r1v+length+cir(grpo + online difficulty weighting + dynamic length reward).
-+ worker.reward.cur_type: The type of online difficulty weighting curve used in the training. Options: h_1(Binary [0.00, 0.50]), h_2(Binary [0.25, 0.75]), h_3(Binary [0.50, 1.00]), s_1(hard stage), s_2(medium stage), s_3(easy stage).
-+ worker.reward.tar_len: The target reasoning length of dynamic length reward. 
++ **worker.reward.compute_score**: The reward used in the training. Options: r1v(basic grpo), r1v+cir(grpo + online difficulty weighting), r1v+length+cir(grpo + online difficulty weighting + dynamic length reward).
++ **worker.reward.cur_type**: The type of online difficulty weighting curve used in the training. Options: h_1(Binary [0.00, 0.50]), h_2(Binary [0.25, 0.75]), h_3(Binary [0.50, 1.00]), s_1(hard stage), s_2(medium stage), s_3(easy stage).
++ **worker.reward.tar_len**: The target reasoning length of dynamic length reward. 
 
 Train the model.
 ```
