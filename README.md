@@ -30,7 +30,7 @@ VL-Cogito demonstrates stable, state-of-the-art or superior results on mainstrea
 
 The code is a fork of the original EasyR1.
 
-The training scripts can be found in examples folder, which include four scripts: basic grpo for MLLM Reasoning, stage1 for VL-Cogito, stage2 for VL-Cogito, and stage3 for VL-Cogito. The training script is designed for single node by default, but can be used with multiple GPUs. Some necessary file pathes and environment variables need to be added in the the script before the training.
+The training scripts can be found in examples folder, which include four scripts: basic grpo for MLLM Reasoning, stage1 for VL-Cogito, stage2 for VL-Cogito, and stage3 for VL-Cogito. The training script is designed for single node with multiple GPUs by default. Some necessary file pathes and environment variables need to be added in the the script before the training.
 
 Explaination of some important hyperparameters:
 + **worker.reward.compute_score**: The reward used in the training. Options: r1v(basic grpo), r1v+cir(grpo + online difficulty weighting), r1v+length+cir(grpo + online difficulty weighting + dynamic length reward).
