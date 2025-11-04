@@ -25,7 +25,8 @@ VL-Cogito demonstrates stable, state-of-the-art or superior results on mainstrea
 
 ![The framework of our model.](./vl_cogito.png)
 
-**Training**
+**Training:**
+
 The training scripts can be found in examples folder, which include four scripts: basic grpo for MLLM Reasoning, stage1 for VL-Cogito, stage2 for VL-Cogito, and stage3 for VL-Cogito. The training script is designed for one single node by default, but can be used with multiple GPUs. 
 ```
 bash examples/stage1.sh
